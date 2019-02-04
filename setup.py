@@ -7,12 +7,6 @@ with open('requirements.txt') as f:
 
 
 try:
-    import numpy
-except ImportError:
-    print('numpy is required during installation')
-    sys.exit(1)
-
-try:
     import scipy
 except ImportError:
     print('scipy is required during installation')
